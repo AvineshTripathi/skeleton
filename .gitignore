@@ -1,2 +1,3 @@
 /middleware/certs
 /servers/node/node_modules
+/servers/node/certs

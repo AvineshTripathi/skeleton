@@ -7,9 +7,11 @@ import (
 func main() {
 
 	// Connect the DB
+	db := ConnectDb()
 
 	// Server setup 
-	
+	server := NewHandler(db)
+	server.Run("8080")
 }
 
 
